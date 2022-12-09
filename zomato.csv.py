@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib .pyplot as plt
 import seaborn as sns
 #importing the zomato dataset
-df=pd.read_csv (r"C:\Users\Asus\OneDrive - IIT Kanpur\Desktop\zomato.csv",encoding="latin-1")
+df=pd.read_csv (r"C:\Users\zomato.csv",encoding="latin-1")
 #printing the dataset
 print(df)
 #printting the shape of the dataset
@@ -21,7 +21,7 @@ print(df.describe())
 print(df.isnull().sum())
 # as there are null values in "Cuisines" column
 # we have another datasheet in which country with code
-df_country=pd.read_csv(r"C:\Users\Asus\OneDrive - IIT Kanpur\Desktop\Country-Code.csv")
+df_country=pd.read_csv(r"C:\Users\Country-Code.csv")
 print(df_country)
 #to print top 5 country from file
 print(df_country .head())
