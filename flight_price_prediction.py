@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-train_df=pd.read_csv(r"C:\Users\Asus\OneDrive - IIT Kanpur\Desktop\ml_data\Data_Train.csv")
+train_df=pd.read_csv(r"C:\Data_Train.csv")
 print(train_df.head())
 print(train_df .info())
 print(train_df.shape)
-test_df=pd.read_csv (r"C:\Users\Asus\OneDrive - IIT Kanpur\Desktop\ml_data\Test_set.csv")
+test_df=pd.read_csv (r"C:\Test_set.csv")
 print(test_df .head())
 print(test_df .info())
 print(test_df.shape)
